@@ -1,0 +1,28 @@
+.hero-container {
+    height: calc(100vh - 10vh);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("pexels-ian-turnell-709552.jpg");
+    background-size: cover;
+    opacity: 0.7;
+
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-size: 120px;
+    color: aquamarine;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.main-video {
+    height: calc(100vh - 10vh);
+    width: 100%;
+    background-size: cover;
+}

@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    
+
+
+}
+.link {
+
+}
+.link-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+}
+.current {
+  color: chartreuse;
+}
+
+.link-list li {
+    list-style-type: none;
+    float: left;
+    color: #f2f2f2;
+    /* text-align: center; */
+    padding: 14px 16px;
+    /* text-decoration: none; */
+    font-size: 17px;
+    cursor: pointer;
+
+  }
+
+li:hover {
+    list-style-type: none;
+    float: left;
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: aqua;
+  }
